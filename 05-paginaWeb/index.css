@@ -1,0 +1,245 @@
+/* Estilos Generales */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo{
+font-size: 2rem;
+padding: 15px 0;
+text-align: center;
+font-family: "Roboto", sans-serif;
+}
+.texto{
+    font-size: 1rem;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  padding: 2rem;
+  background-color: #0a0ae4;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-link {
+  color: white;
+}
+
+/* Menu principal */
+.menupri {
+  background-color: #0a0ae4;
+  text-align: center;
+}
+
+.menupri h2 {
+  font-size: 1.5rem;
+  color: black;
+  background-color: yellow;
+}
+
+.menuprincipal {
+  padding: 0px;
+}
+
+.img-perfil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+/* About */
+.about {
+  padding: 5px;
+  height: 300px;
+}
+.about .container{
+max-width: 400px;
+align-items: center;
+}
+.dark {
+  background-color: #ff6969;
+  color: white;
+}
+.clara{
+    color: black;
+    background-color: white ;
+}
+
+/* Resume */
+.resume{
+padding: 10px;
+}
+.resume .columna {
+    padding: 20px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.3s ease-out;
+}
+.resume .columna:hover {
+    color: white;
+    background-color: rgb(221, 0, 250);
+}
+.resume i{
+    font-size: 2.5rem;
+    color: darkgreen;
+    background-color: tomato;
+    padding: 6px 19px;
+    border-radius: 50%;
+}
+.resume-titulo{
+    font-size: 15px;
+    font-weight:bold ;
+    margin-top: 10px 0;
+}
+.contenedora{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.badge{
+    margin: 5px;
+}
+/* Resources */
+.reso{
+min-height: 400px;
+padding: auto;
+
+
+}
+.reso .card{
+  width: 75%;
+  max-width: 500px;
+  margin: 10px;
+}
+.card{
+  font-weight: bold;
+}
+
+
+/* Contact */
+.contact{
+  
+  min-height: 200px;
+  padding: 10px;
+
+}
+.contact .rect{
+  margin-top:-5rem ;
+  background-color: skyblue;
+  border-radius: 10px;
+  box-shadow: 0px 1 px 4px 1px blue;
+
+}
+.contact .row{
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+}
+
+.contact .desc{
+  color: white;
+  font-size: 1rem;
+}
+
+.contact button{
+  color: white;
+  font-weight: bold;
+  background-color: aqua;
+ margin: 10px;
+ border-radius: 100px;
+}
+.contact button i{
+  color: white;
+}
+/* footer */
+.footer{
+min-height: 100px;
+}
+.footer-logo{
+  height: 2W0px;
+  width: 80px;
+  margin: 10px;
+}
+.footer-text{
+  font-size: 1.5rem;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.iconos-redes-sociales a {
+  height: 50px;
+  width: 50px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 2px;
+ margin: 10px;
+ border:  2px solid white;
+ border-radius: 50%;
+ transition:  all 0,2s ease-in;
+}
+
+.iconos-redes-sociales i{
+  color: white;
+  font-size: 2rem;
+transition: all 0, 2s ease-in;
+}
+
+.iconos-redes-sociales a:hover{
+  background-color: pink;
+  border: 2px solid blue;
+
+}
+
+.autor{
+  font-size: 25px;
+  color:black;
+  padding: 25px;
+}
+
+
+
+
+
+.scroll-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  font-size: 24px;
+  z-index: 9999;
+}
+
+.scroll-to-top:hover {
+  background-color: #555;
+}
+
+
+/* Media query */
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
